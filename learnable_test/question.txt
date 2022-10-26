@@ -2,3 +2,6 @@
 
 
 Given a list of integers, create a function that returns the nth-rarest item. The function should be called nth_most_ratesignature and its signature nth_most_rate_signature(list,n) where list is the array od integers and n is the nth rarest term. For example in ([5,4,5,4,5,4,4,3,3,3,2,2,1,5], if 2 is supplied as n, the answer is 2 as 2 is the 2nd rarest item).
+
+# Another solution file. In case there is more than one item in the list from above solution, this will return all the values at the nth most rarest value.
+e.g list=[2,3,3,4,4,5] in this list 3 and 4 are the 2nd most rarest values in the list.
